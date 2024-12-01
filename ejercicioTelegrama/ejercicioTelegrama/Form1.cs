@@ -29,7 +29,7 @@ namespace ejercicioTelegrama
             textoTelegrama = txtTelegrama.Text;
 
             // telegrama urgente?
-            if (chkUrgente.Checked)
+            if (rdbUrgente.Checked)
             {
                 tipoTelegrama = 'u';
             }
